@@ -4,7 +4,7 @@
   "description": "A Redux middleware for managing GraphQL Subscriptions.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hally9k/redux-graphql-subscriptions"
+    "url": "https://github.com/vital-software/redux-graphql-subscriptions"
   },
   "keywords": [
     "Redux",
