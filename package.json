@@ -1,5 +1,5 @@
 {
-  "name": "redux-graphql-subscriptions",
+  "name": "@vital-software/redux-graphql-subscriptions",
   "version": "3.0.0",
   "description": "A Redux middleware for managing GraphQL Subscriptions.",
   "private": true,
