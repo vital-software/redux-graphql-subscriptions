@@ -253,6 +253,7 @@ export function createMiddleware<S>() {
                 if (typeof handlers.onReconnected === 'function') {
                     handlerMap.onReconnected = wsClient.onReconnected(
                         () => {
+                            dispatchQueuedActions()
                             if(disconnectionWarningTimeoutId) {
                                 clearTimeout(disconnectionWarningTimeoutId)
                                 disconnectionWarningTimeoutId = null
